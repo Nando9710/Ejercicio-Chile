@@ -1,0 +1,21 @@
+.form-students {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+#guardar {
+  margin-bottom: 50px;
+}
+.inputForm,
+#select-search {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 15px;
+  margin-bottom: 30px;
+  border-color: cadetblue;
+}
+label {
+  font-size: 20px;
+  color: rgb(55, 133, 136);
+}

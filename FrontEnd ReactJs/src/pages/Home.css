@@ -1,0 +1,98 @@
+nav {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.form-group-home {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.encabezado-tabla {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.agregar-estudiante {
+  text-align: center;
+  width: 35%;
+  margin-bottom: 20px;
+}
+
+.editar {
+  background-color: cadetblue;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.eliminar {
+  background-color: rgb(185, 47, 47);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.agregar {
+  background-color: rgb(98, 98, 233);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.seleccionar {
+  background-color: rgb(117, 117, 236);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-right: 5px;
+}
+#select-search-home {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.div-table {
+  text-align: center;
+}
+
+th {
+  border: 2px solid cadetblue;
+  padding: 20px 60px;
+}
+td {
+  border: 2px solid cadetblue;
+  padding: 10px 20px;
+}
+
+thead th {
+  width: 25%;
+}
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  vertical-align: middle;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  margin-right: 10px;
+}
+.datos-grupo {
+  display: flex;
+}
+.botones-grupo {
+  display: flex;
+  align-items: center;
+}
